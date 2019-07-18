@@ -1,0 +1,30 @@
+{
+  "name": "eve",
+  "version": "1.0.0",
+  "description": "My Instagram Manager",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaminmeerankutty/eve.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaminmeerankutty/eve/issues"
+  },
+  "homepage": "https://github.com/shaminmeerankutty/eve#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "puppeteer": "^1.18.1",
+    "puppeteer-core": "^1.18.1"
+  }
+}
