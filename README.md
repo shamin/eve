@@ -1,8 +1,9 @@
 # eve
 My Instagram Manager
 
-## Environment Variables
+## Environment Variables (.env)
 ```
+NODE_ENV=development
 USERNAME=
 PASSWORD=
 ```

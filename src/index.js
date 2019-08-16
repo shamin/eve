@@ -1,8 +1,9 @@
 import 'dotenv/config';
 import puppeteer from 'puppeteer';
+const DEBUG = process.env.NODE_ENV === 'development' || false;
 
 (async () => {
-  const browser = await puppeteer.launch({headless: process.env.DEBUG || false, args: ['--no-sandbox']});
+  const browser = await puppeteer.launch({headless: true, args: ['--no-sandbox']});
   const page = await browser.newPage();
   await page.goto('https://www.instagram.com/accounts/login');
   await page.waitFor(5000);
